@@ -22,11 +22,14 @@ int main(int argc, char * argv[]) {
     long double pi = 3.14159265358979323846;
     
     NSString *stringVariable1 = @"String";
-    char charVariable1 = 'x';    
+    char charVariable1 = 'x';
     
-	// Task 2
-	
-	
+	// Task 2 output all my basic variables
+    NSLog(@"\n integerVariable1 = %i \n integerVariable2 = %u \n integerVariable3 = %li ", integerVariable1, integerVariable2, integerVariable3);
+    NSLog(@"\n floatVariable1 = %f \n floatVariable2 = %f", floatVariable1, floatVariable2);
+    NSLog(@"\n doubleVariable1 = %e \n pi = %Le", doubleVariable1, pi);
+    NSLog(@"\n stringVariable1 = %@ \n charVariable1 = %c", stringVariable1, charVariable1);
+    
 	// Task 3
 	return 0;
 }
