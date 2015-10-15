@@ -37,6 +37,31 @@ int main(int argc, char * argv[]) {
     NSLog(@"\n secondVariant = %@ \n uppercasedStringVariant = %@", secondVariant, uppercasedStringVariant);
     
     // Task 4  Crash app
+    NSString *string = @"A contrived string %@";
+    NSLog(string);
+    
+    // Task 5 For, while-do, do-while,
+    NSLog(@"FOR ");
+    for (int variableForLoop = 1; variableForLoop <=10; variableForLoop++) {
+        NSLog(@"\n variableForLoop = %i", variableForLoop);
+    }
+    
+    NSLog(@"While-do");
+    int variableForWhileDo  = 10;
+    while (variableForWhileDo != 0) {
+        NSLog(@"\n variableForWhileDo = %i", variableForWhileDo);
+        variableForWhileDo--;
+    }
+    
+    NSLog(@"Do-while");
+    int variableForDoWhile = 0;
+    do {
+        variableForDoWhile++;
+        NSLog(@"\n variableForDoWhile = %i", variableForDoWhile);
+    
+    } while (variableForDoWhile < 10);
+    
+    
     
     
     
