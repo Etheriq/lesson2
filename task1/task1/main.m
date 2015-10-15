@@ -30,6 +30,15 @@ int main(int argc, char * argv[]) {
     NSLog(@"\n doubleVariable1 = %e \n pi = %Le", doubleVariable1, pi);
     NSLog(@"\n stringVariable1 = %@ \n charVariable1 = %c", stringVariable1, charVariable1);
     
-	// Task 3
+	// Task 3  initialization NSString
+    NSString *firstVariant = @"string 1";
+    NSString *secondVariant = [[NSString alloc] initWithString: @"string 2"];
+    NSString *uppercasedStringVariant = [secondVariant uppercaseString];
+    NSLog(@"\n secondVariant = %@ \n uppercasedStringVariant = %@", secondVariant, uppercasedStringVariant);
+    
+    // Task 4  Crash app
+    
+    
+    
 	return 0;
 }
