@@ -15,6 +15,8 @@ int main(int argc, char * argv[]) {
     unsigned int integerVariable2 = 1;
     NSInteger integerVariable3 = 15;
     
+    BOOL booleanVariable = YES;
+    
     float floatVariable1 = .8f;
     CGFloat floatVariable2 = 5.2f;
     
